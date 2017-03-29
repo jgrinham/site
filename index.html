@@ -24,6 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/png" >
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,8 +33,26 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-</head>
+   <!-- 
 
+<script type="text/javascript">
+   var ImageArray = ['Header_1.gif','Header_2.gif'];
+
+function getRandomImage() {
+    var num = Math.floor(Math.random() * 11);
+    var img = ImageArray[num];
+    document.getElementById("randImage").src = img;
+}
+
+</script>
+</head>
+<body onload="getRandomImage()">
+<div id="randImage"></div>
+</body>
+
+-->
+
+</head>
 <body id="page-top">
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
