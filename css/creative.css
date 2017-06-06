@@ -160,7 +160,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/Header_1.gif');
+  /*background-image: url('../img/Header_1.gif');*/
+  background-image: url(..img/rotator.php) no-repeat center top;
   text-align: center;
   color: white;
 }
