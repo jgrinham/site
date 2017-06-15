@@ -57,6 +57,9 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+.text-faded-2 {
+  color: rgba(255, 255, 255, 1);
+}
 section {
   padding: 100px 0;
 }
