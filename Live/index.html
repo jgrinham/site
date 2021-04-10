@@ -109,7 +109,7 @@
                     var parsedData = JSON.parse(e.data);
                     var tempSpan = document.getElementById("uptime");
                     var tsSpan   = document.getElementById("tstamp");
-                    tempSpan.innerHTML = parsedData.data + " (h:m:s:temperature:humidity)";
+                    tempSpan.innerHTML = parsedData.data + " (h:m:s:S1_temperature:S1_humidity:S2_temperature:S2_humidity)";
                     //tempSpan.innerHTML = "Core: " + parsedData.coreid + " uptime: " + parsedData.data + " (h:m:s)";
                     tempSpan.style.fontSize = "24px";
                     tsSpan.innerHTML = "At timestamp  " + parsedData.published_at;
